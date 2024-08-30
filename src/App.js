@@ -7,7 +7,7 @@ function App() {
     <div>
       <BrowserRouter>
         <Routes>
-          <Route path="/weather" element={<Weather />} />
+          <Route path="/" element={<Weather />} />
         </Routes>
       </BrowserRouter>
     </div>
